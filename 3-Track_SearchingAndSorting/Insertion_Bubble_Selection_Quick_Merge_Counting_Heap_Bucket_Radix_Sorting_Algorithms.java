@@ -84,7 +84,7 @@ public class Insertion_Bubble_Selection_Quick_Merge_Counting_Heap_Bucket_Radix_S
     {
         int i = low - 1, temp;
         for (int j = low ; j < high ; j++)
-            if(arr[j] <= arr[high]) // arr[high] is pivot element
+            if(arr[j] < arr[high]) // arr[high] is pivot element
             {
                 temp = arr[++i];
                 arr[i] = arr[j];
